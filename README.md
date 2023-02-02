@@ -1,2 +1,2 @@
 # Entangled
-Entangled is an opensource dating platform built and maintained by the Cipherians.
+Entangled is an open source dating platform built and maintained by the Cipherians.
