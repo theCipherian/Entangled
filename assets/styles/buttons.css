@@ -1,0 +1,16 @@
+@import url("aurenso.css");
+
+.b{
+    width:max-content;
+    min-width:100%;
+    height:max-content;
+    padding:1rem;
+    border-radius: 5px;
+    float:right;
+    text-align: center;
+    cursor:pointer;
+    font-family: 'Pacifico', cursive !important;
+    color:var(--white);
+    background-color: var(--secondary);
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+}

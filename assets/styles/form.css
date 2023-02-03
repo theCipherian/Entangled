@@ -1,0 +1,112 @@
+@import url("aurenso.css");
+
+*,
+*:focus{outline: none}
+
+form {
+	margin:10% auto 0 auto;
+	padding:30px;
+	width:450px;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+}
+
+form label {
+	font-size:14px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+form label,
+form input {
+	float:left;
+	clear:both;
+}
+
+form input, select{
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+  -webkit-transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -ms-transition:0.2s ease all;
+  -o-transition:0.2s ease all;
+  transition:0.2s ease all;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+	border-color: var(--secondary);
+}
+
+.sub_1, .sub_2, .sub_3, .sub_4{
+	padding:15px 50px;
+	width:auto;
+	background:var(--delay);
+	border:none;
+	color:white;
+  border-radius:30px;
+	cursor:pointer;
+	float:right;
+	clear:right;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+.sub_1, .sub_2, .sub_3, .sub_4:hover {
+	opacity:0.8;
+}
+
+
+
+.forgot,
+.register,
+.login_ {
+	margin:2px;
+	float:left;
+  color:#121212;
+	clear:left;
+  transition:all .3s ease;
+	color:darkgray;
+  font-size:15px;
+	text-decoration:none;
+}
+
+.forgot:hover,
+.register:hover,
+.login_:hover {
+	color:var(--secondary);
+  transition:all .3s ease;
+  text-decoration: underline;
+}
+
+#logo {
+	margin:0 auto;
+	width:100%;
+  font-family: 'Pacifico', cursive !important;
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+	color:lightgray;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+#logo:hover {
+	color:var(--delay);
+}
